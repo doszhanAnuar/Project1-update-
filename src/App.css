@@ -1,0 +1,239 @@
+@media (max-width: 500px) {
+  .a-child-img {
+    display: none;
+  }
+  .a-child-text {
+    width: 100%;
+  }
+  .first {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contentMain {
+    padding: 48 48 48 48;
+  }
+  /* img {
+  width: 80px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 0.3rem;
+} */
+
+  .something {
+    text-shadow: none;
+  }
+  .carta {
+    width: 400px;
+    background-color: black;
+  }
+  .first {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .pop {
+    width: 100%;
+    height: 40vh;
+    max-height: 600px;
+  }
+  .bob {
+    width: 100%;
+    flex-direction: column;
+  }
+  h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+  .list-member {
+    padding-left: 16px;
+  }
+  .train {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 15px;
+    font-family: National2, sans-serif;
+  }
+  .diary {
+    width: 100%;
+    height: 80px;
+    padding: 1.25rem;
+    font-size: 24px;
+    font-family: "Domine", serif;
+    border-radius: 5px;
+  }
+  .list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 8px;
+  }
+  .list-member {
+    height: 50px;
+  }
+  .dop-img {
+    width: 70%;
+    height: 80%;
+    border-radius: 100%;
+  }
+
+  .calendar {
+    text-align: center;
+  }
+  .img-div {
+    width: 100px;
+    height: 100px;
+  }
+  .navbar-brand span:hover {
+    color: aqua;
+    transition: 0.3s;
+  }
+  .h21 {
+    font: caption;
+  }
+  .a {
+    padding-top: 16px;
+    width: 100%;
+    height: 100vh;
+    max-height: 600px;
+  }
+  .dop {
+    width: 100%;
+    height: 40vh;
+    max-height: 600px;
+  }
+  .img-part {
+    width: 25%;
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+
+  .word-part {
+    width: 75%;
+  }
+  .a-child-text {
+    width: 60%;
+  }
+  .a-child-img {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 10vw);
+    grid-gap: 15px;
+
+    animation-duration: 10s;
+    animation-name: slide-up;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    -webkit-mask: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 0),
+      rgba(1, 0, 24, 0.9) 30%,
+      #010013 50%,
+      rgba(1, 0, 10, 0.9) 70%,
+      transparent
+    );
+  }
+
+  .nav-words {
+    background-color: #f4b52e;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+  }
+  .color-chan {
+    transition: color 0.2s;
+    color: #f4b52e;
+  }
+  .navbar-brand {
+    font-family: "Poppins", sans-serif;
+  }
+  .main-child-inf {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 22vw);
+    grid-gap: 15px;
+  }
+  .first-div {
+    width: 100%;
+    height: 100%;
+  }
+
+  .material-fix {
+    display: flex;
+    justify-content: center;
+  }
+  .sec {
+    width: 100%;
+    height: 75%;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .person-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 22px;
+    color: #373737 !important;
+    transition: color 0.2s;
+  }
+  .a-child-text h1 {
+    padding-top: 48px;
+  }
+  .a-child-text h2 {
+    padding-top: 20px;
+  }
+  .main-section {
+    background-color: rgb(248, 242, 242);
+  }
+  .main-child-text {
+    padding-top: 48px;
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .under {
+    border-bottom: 8px solid #f4b52e;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .navbar-nav {
+    padding-right: 60px;
+  }
+  .sign-btn {
+    border: none;
+    outline: 0 !important;
+  }
+  .material-fix1 {
+    display: flex;
+    justify-content: start;
+  }
+  @keyframes slide-up {
+    from {
+      margin-top: 0rem;
+    }
+    to {
+      margin-top: 2rem;
+    }
+  }
+}
